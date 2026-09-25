@@ -28,15 +28,18 @@ async def on_member_join(member):
         return
 
     await channel.send(
-        f"💜 Benvenuto nei **Nyvos**, {member.mention}! \n\n"
-        
-        "Questo è il nostro spazio per stare insieme anche fuori dalle live.\n"
-        
-        "🎮 Parliamo di gaming, Valorant e tanto altro. "
-        
-        "💬 Partecipa alla chat, condividi le tue clip e conosci gli altri Nyvos.\n\n"
-        
-        "Grazie di essere qui, buona permanenza nella community! 💜"
+    
+        f"💜 **Benvenuto nei Nyvos, {member.mention}!** 🎮\n\n"
+    
+        "Questo è il nostro spazio per stare insieme anche fuori dalle live.\n\n"
+   
+        "🎮 Parla di gaming e di tanto altro.\n\n"
+   
+        "💬 Partecipa alla chat e conosci gli altri Nyvos.\n\n"
+    
+        "🎬 Condividi i tuoi clip e le tue migliori giocate.\n\n"
+   
+        "Grazie di essere qui e buona permanenza nella community! 💜"
     )
 
 
