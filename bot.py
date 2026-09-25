@@ -28,7 +28,7 @@ async def on_member_join(member):
         return
 
     await channel.send(
-        f"💜 Benvenuto nel **Nyvos**, {member.mention}! 🎮\n\n"
+        f"💜 Benvenuto nei **Nyvos**, {member.mention}! 🎮\n\n"
         "Questo è il nostro spazio per stare insieme anche fuori dalle live.\n"
         "Parla di gaming e di tanto altro, partecipa alla chat, "
         "condividi i tuoi clip e conosci gli altri Nyvos.\n\n"
